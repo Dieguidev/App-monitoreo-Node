@@ -12,12 +12,12 @@ const fileSystemLogRepository = new LogRepositoryImpl(
 const emailService = new EmailService();
 
 export class Server {
-  static start() {
+  public static start() {
     console.log('Server started');
     // console.log(envs.MAILER_EMAIL,envs.MAILER_SECRET_KEY);
 
 
-    //*mandar email
+    // *mandar email
     // new SendEmailLogs(
     //   emailService,
     //   fileSystemLogRepository
