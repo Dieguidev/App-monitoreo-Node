@@ -16,7 +16,7 @@ enum SeverityLevel {
   HIGH
 }
 
-model LogModel {
+ model LogModel {
   id        Int           @id @default(autoincrement())
   message   String
   origin    String
